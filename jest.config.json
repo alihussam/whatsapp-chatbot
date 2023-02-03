@@ -1,0 +1,9 @@
+{
+	"verbose": true,
+	"preset": "ts-jest",
+	"testEnvironment": "node",
+	"testRegex": "((\\.|/*.)(spec))\\.ts?$",
+	"coverageReporters": ["lcov", "text"],
+	"collectCoverageFrom": ["./src/**/*.js"],
+	"roots": ["./src"]
+}

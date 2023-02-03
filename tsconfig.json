@@ -1,0 +1,25 @@
+{
+	"buildOnSave": false,
+	"compileOnSave": false,
+	"compilerOptions": {
+		"charset": "utf8",
+		"module": "commonjs",
+		"target": "es2018",
+		"lib": ["es2018", "dom"],
+		"noImplicitAny": true,
+		"removeComments": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"skipLibCheck": true
+	},
+	"files": ["types/app.d.ts"],
+	"include": ["src/**/*.ts", "*.ts"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

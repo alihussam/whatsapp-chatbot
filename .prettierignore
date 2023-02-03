@@ -1,0 +1,5 @@
+# Don't lint node_modules
+node_modules
+
+# Ignore service account file
+serviceAccount.json
